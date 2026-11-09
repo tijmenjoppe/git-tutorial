@@ -7,11 +7,11 @@ def check_antwoord(antwoord):
 
 def hello_world(lang):
     if lang == "NL":
-        print("Hallo wereld!")
+        return "Hallo wereld!"
     elif lang == "FR":
-        print("Bonjour le monde!")
+        return "Bonjour le monde!"
     else:
-        print("Hello world!")
+        return "Hello world!"
 
 
 def main():
@@ -23,6 +23,6 @@ def main():
     else:
         print("Mogelijk heb je een andere vraag in je hoofd?")
 
-#test()
-main()
 
+# test()
+main()
