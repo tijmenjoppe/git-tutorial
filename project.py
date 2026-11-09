@@ -1,5 +1,9 @@
+LANG = "EN"
+
+
 def check_antwoord(antwoord):
     return antwoord == 42
+
 
 def hello_world(lang):
     if lang == "NL":
@@ -9,10 +13,16 @@ def hello_world(lang):
     else:
         print("Hello world!")
 
-hello_world("EN")
 
-antwoord = input("Wat is het antwoord op de ultieme vraag van het leven, het universum, en alles?")
-if check_antwoord(antwoord):
-    print("Correct!")
-else:
-    print("Mogelijk heb je een andere vraag in je hoofd?")
+def main():
+    print(hello_world(LANG))
+
+    antwoord = input("Wat is het antwoord op de ultieme vraag van het leven, het universum, en alles?")
+    if check_antwoord(antwoord):
+        print("Correct!")
+    else:
+        print("Mogelijk heb je een andere vraag in je hoofd?")
+
+#test()
+main()
+
