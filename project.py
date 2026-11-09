@@ -23,6 +23,9 @@ def main():
     else:
         print("Mogelijk heb je een andere vraag in je hoofd?")
 
+# Tijmen's functionaliteit wordt hier toegevoegd:
+# TODO:
+# * meer talen
 
 # test()
 main()
